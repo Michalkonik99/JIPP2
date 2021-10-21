@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/Projects/clion/JiPP2/zadania_lab03/include/zadania.h
+iostream
+-
+
+/home/michal/Projects/clion/JiPP2/zadania_lab03/src/main.cpp
+iostream
+-
+../include/zadania.h
+/home/michal/Projects/clion/JiPP2/zadania_lab03/include/zadania.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab03/src/zadanie_1.cpp
+iostream
+-
+../include/zadania.h
+/home/michal/Projects/clion/JiPP2/zadania_lab03/include/zadania.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab03/src/zadanie_2.cpp
+iostream
+-
+../include/zadania.h
+/home/michal/Projects/clion/JiPP2/zadania_lab03/include/zadania.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab03/src/zadanie_3.cpp
+iostream
+-
+cmath
+-
+../include/zadania.h
+/home/michal/Projects/clion/JiPP2/zadania_lab03/include/zadania.h
+
