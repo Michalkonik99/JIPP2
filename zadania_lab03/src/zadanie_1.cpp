@@ -1,4 +1,5 @@
 #include <iostream>
+#include "../include/zadania.h"
 #define ARR_LEN 10
 
 using namespace std;
@@ -15,7 +16,7 @@ int get_random_number(int a, int b){
     return rand_num;
 }
 
-int ex01(){
+void ex11(){
     cout << "Zadanie 1" << endl << endl;
     srand(time(NULL));
     int a, b;
@@ -27,8 +28,6 @@ int ex01(){
 
     int rand_num = get_random_number(a, b);
     cout << "Wylosowana liczba: " << rand_num << endl;
-
-    return 0;
 }
 
 void fill_array_random(int* arr){
@@ -45,7 +44,7 @@ int get_max_value(int* arr){
     return max;
 }
 
-int ex02(){
+void ex12(){
     cout << "Zadanie 2" << endl << endl;
     srand(time(NULL));
 
@@ -57,7 +56,6 @@ int ex02(){
     cout << "Max Value: " << max << endl;
 
     delete [] arr;
-    return 0;
 }
 
 void reverse_array(int* arr){
@@ -70,13 +68,33 @@ void reverse_array(int* arr){
     }
 }
 
-int ex03(){
+void ex13(){
     cout << "Zadanie 3" << endl << endl;
     int arr[ARR_LEN]  = {1, 3, 2, 5, 4, 7, 6, 9, 8};
 
     print_array(arr);
     reverse_array(arr);
     print_array(arr);
+}
 
-    return 0;
+void task01(){
+    int exercise = 0;
+
+    cout << "Wybierz cwiczenie z zadania 1. (1-3): ";
+    cin >> exercise;
+
+    switch(exercise){
+        case 1:
+            ex11();
+            break;
+        case 2:
+            ex12();
+            break;
+        case 3:
+            ex13();
+            break;
+        default:
+            cout << "Brak zadania o podanym numerze." << endl;
+            break;
+    }
 }
