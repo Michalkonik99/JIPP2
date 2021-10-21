@@ -1,34 +1,35 @@
-//#include <iostream>
-//
-//using namespace std;
-//
-//int get_random_number(int a, int b){
-//    int rand_num = rand() % (b - a + 1) + a;
-//
-//    return rand_num;
-//}
-//
-//int main(){
-//    srand(time(NULL));
-//    int a, b;
-//
-//    cout << "Podaj a: ";
-//    cin >> a;
-//    cout << "Podaj b: ";
-//    cin >> b;
-//
-//    int rand_num = get_random_number(a, b);
-//    cout << "Wylosowana liczba: " << rand_num << endl;
-//
-//    return 0;
-//}
-
-//------------------------------------------
-
-/*#include <iostream>
+#include <iostream>
 #define ARR_LEN 10
 
 using namespace std;
+
+void print_array(int* arr){
+    for(int i = 0; i < ARR_LEN; i++)
+        cout << arr[i] << " ";
+    cout << endl;
+}
+
+int get_random_number(int a, int b){
+    int rand_num = rand() % (b - a + 1) + a;
+
+    return rand_num;
+}
+
+int ex01(){
+    cout << "Zadanie 1" << endl << endl;
+    srand(time(NULL));
+    int a, b;
+
+    cout << "Podaj a: ";
+    cin >> a;
+    cout << "Podaj b: ";
+    cin >> b;
+
+    int rand_num = get_random_number(a, b);
+    cout << "Wylosowana liczba: " << rand_num << endl;
+
+    return 0;
+}
 
 void fill_array_random(int* arr){
     for(int i = 0; i < ARR_LEN; i++)
@@ -44,13 +45,8 @@ int get_max_value(int* arr){
     return max;
 }
 
-void print_array(int* arr){
-    for(int i = 0; i < ARR_LEN; i++)
-        cout << arr[i] << " ";
-    cout << endl;
-}
-
-int main(){
+int ex02(){
+    cout << "Zadanie 2" << endl << endl;
     srand(time(NULL));
 
     int* arr = new int[ARR_LEN];
@@ -62,12 +58,7 @@ int main(){
 
     delete [] arr;
     return 0;
-}*/
-
-#include <iostream>
-#define ARR_LEN 9
-
-using namespace std;
+}
 
 void reverse_array(int* arr){
     int x, id;
@@ -79,13 +70,8 @@ void reverse_array(int* arr){
     }
 }
 
-void print_array(int* arr){
-    for(int i = 0; i < ARR_LEN; i++)
-        cout << arr[i] << " ";
-    cout << endl;
-}
-
-int main(){
+int ex03(){
+    cout << "Zadanie 3" << endl << endl;
     int arr[ARR_LEN]  = {1, 3, 2, 5, 4, 7, 6, 9, 8};
 
     print_array(arr);
