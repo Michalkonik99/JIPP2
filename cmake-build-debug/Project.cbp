@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\zadania_lab03\;CMake Files\zadania_lab04\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="allocation_basics">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/allocation_basics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 allocation_basics"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="allocation_basics/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/allocation_basics" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 allocation_basics/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleCalc">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/simpleCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 simpleCalc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="simpleCalc/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/simpleCalc" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 simpleCalc/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/simpleCalc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/homework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 homework"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/homework" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 homework/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework_lab04">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/homework_lab04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 homework_lab04"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="homework_lab04/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/homework_lab04" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 homework_lab04/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/allocation_basics/main.cpp">
+			<Option target="allocation_basics"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/simpleCalc/src/calc.cpp">
+			<Option target="simpleCalc"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/simpleCalc/src/main.cpp">
+			<Option target="simpleCalc"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab03/src/main.cpp">
+			<Option target="homework"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab03/src/zadanie_1.cpp">
+			<Option target="homework"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab03/src/zadanie_2.cpp">
+			<Option target="homework"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab03/src/zadanie_3.cpp">
+			<Option target="homework"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/main.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/allocation_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\allocation_basics\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/simpleCalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simpleCalc\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zadania_lab03\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zadania_lab04\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,8 @@
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/firstLibCall/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/firstLibCall/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/firstLibCall/CMakeFiles/firstLibCall.dir
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/Library/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/Library/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/build/Library/CMakeFiles/firstLib.dir

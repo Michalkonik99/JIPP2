@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/Library/src/lib.cpp
+firstlib/lib.h
+/home/michal/Projects/clion/JiPP2/lab_03/firstLib/Library/src/firstlib/lib.h
+
