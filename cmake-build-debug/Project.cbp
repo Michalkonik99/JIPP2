@@ -5,7 +5,7 @@
 		<Option title="Project"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\zadania_lab03\;CMake Files\zadania_lab04\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\zadania_lab03\;CMake Files\zadania_lab04\;CMake Files\project_1\;CMake Files\project_1\matrixApp\;CMake Files\project_1\matrixLib\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug"/>
@@ -213,9 +213,108 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="projectMatrix">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/projectMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/michal/Projects/clion/JiPP2/project_1/matrixApp/../matrixLib"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 projectMatrix"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="projectMatrix/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/projectMatrix" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/michal/Projects/clion/JiPP2/project_1/matrixApp/../matrixLib"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 projectMatrix/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixLib">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/libmatrixLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 matrixLib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="matrixLib/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/libmatrixLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 matrixLib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/allocation_basics/main.cpp">
 			<Option target="allocation_basics"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixApp/main.cpp">
+			<Option target="projectMatrix"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixLib/matrixLib.cpp">
+			<Option target="matrixLib"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixLib/matrixLib.h">
+			<Option target="matrixLib"/>
 		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/simpleCalc/src/calc.cpp">
 			<Option target="simpleCalc"/>
@@ -252,6 +351,15 @@
 		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\zadania_lab04\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\matrixApp\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\matrixLib\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

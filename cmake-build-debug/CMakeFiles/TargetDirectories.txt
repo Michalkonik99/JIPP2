@@ -12,3 +12,11 @@
 /home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/CMakeFiles/edit_cache.dir
 /home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/CMakeFiles/rebuild_cache.dir
 /home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/CMakeFiles/homework_lab04.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/CMakeFiles/projectMatrix.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixLib/CMakeFiles/matrixLib.dir

@@ -168,6 +168,32 @@ homework_lab04/fast:
 	$(MAKE) $(MAKESILENT) -f zadania_lab04/CMakeFiles/homework_lab04.dir/build.make zadania_lab04/CMakeFiles/homework_lab04.dir/build
 .PHONY : homework_lab04/fast
 
+#=============================================================================
+# Target rules for targets named projectMatrix
+
+# Build rule for target.
+projectMatrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projectMatrix
+.PHONY : projectMatrix
+
+# fast build rule for target.
+projectMatrix/fast:
+	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/build
+.PHONY : projectMatrix/fast
+
+#=============================================================================
+# Target rules for targets named matrixLib
+
+# Build rule for target.
+matrixLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matrixLib
+.PHONY : matrixLib
+
+# fast build rule for target.
+matrixLib/fast:
+	$(MAKE) $(MAKESILENT) -f project_1/matrixLib/CMakeFiles/matrixLib.dir/build.make project_1/matrixLib/CMakeFiles/matrixLib.dir/build
+.PHONY : matrixLib/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -179,6 +205,8 @@ help:
 	@echo "... allocation_basics"
 	@echo "... homework"
 	@echo "... homework_lab04"
+	@echo "... matrixLib"
+	@echo "... projectMatrix"
 	@echo "... simpleCalc"
 .PHONY : help
 

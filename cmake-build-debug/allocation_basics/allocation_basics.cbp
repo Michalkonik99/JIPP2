@@ -5,7 +5,7 @@
 		<Option title="allocation_basics"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\zadania_lab03\;CMake Files\zadania_lab04\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\zadania_lab03\;CMake Files\zadania_lab04\;CMake Files\project_1\;CMake Files\project_1\matrixApp\;CMake Files\project_1\matrixLib\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/allocation_basics"/>
@@ -79,6 +79,15 @@
 		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\zadania_lab04\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\matrixApp\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\matrixLib\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
