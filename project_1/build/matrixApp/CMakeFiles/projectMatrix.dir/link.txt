@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/projectMatrix.dir/main.cpp.o  -o projectMatrix  ../matrixLib/libmatrixLib.a 
