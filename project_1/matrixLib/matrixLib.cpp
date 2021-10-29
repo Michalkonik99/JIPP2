@@ -315,7 +315,7 @@ void help(){
 
 
     cout << endl << "2. Odejmowanie macierzy: " << endl;
-    cout << "./matrixApp [subtractMatrix]" << endl << endl;
+    cout << "./matrixApp [subtractMatrix]" << endl;
     cout << "Program wykonuje sie wedlug algorytmu ogolnego. Podany rozmiar macierzy jest rozmiarem dwoch macierzy." << endl;
 
 
@@ -357,7 +357,7 @@ void help(){
     cout << "Po podaniu wspolczynnikow macierzy, nalezy podac wspolrzedne elementow macierzy, ktore chcemy zamienic miejscami: " << endl;
     cout << "Wspolrzedne zostaja podane najpierw dla pierwszej liczby, zatwierdzamy entrem i podajemy wspolrzedne drugiej liczby i zatwierdzamy enterm." << endl;
     cout << "Pierwsza podana liczba oznacza wiersz macierzy a druga jej kolumne: [wiersz] [kolumna]" << endl;
-
+    cout << "Indeksy zaczynaja sie od [0][0]. W przypadku, gdy zostana podane nieprawidlowe dane, program poprosi o nie ponownie." << endl;
 
     cout << endl << "10. Sortowanie wiersza macierzy: " << endl;
     cout << "./matrixApp [sortRow]" << endl;
