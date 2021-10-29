@@ -199,7 +199,20 @@ void matrix_int_calculations(int operation_id, int argc, char* argv[]){
             }
 
             unsigned int power;
-            power = stoi(argv[2]);
+
+            try {
+                power = stoi(argv[2]);
+            }
+            catch(const invalid_argument &err){
+                cout << "Wprowadzono tekst zamiast liczby" << endl;
+                cout << "Aby wyswietlic dokumentacje wpis ./matrixApp help" << endl;
+                exit(-2);
+            }
+            catch(const out_of_range &err){
+                cout << "Podana liczba jest z poza zakresu" << endl;
+                cout << "Aby wyswietlic dokumentacje wpis ./matrixApp help" << endl;
+                exit(-2);
+            }
 
             matrix_c = powerMatrix(matrix_a, rows_a, cols_a, power);
             print_matrix(matrix_c, rows_a, cols_a);
