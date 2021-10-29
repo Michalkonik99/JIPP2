@@ -30,5 +30,6 @@ void sortRow(int*, int);
 void sortRow(double*, int);
 void sortRowsInMatrix(int**, int, int);
 void sortRowsInMatrix(double**, int, int);
+void help();
 
 #endif //JIPP2_MATRIXLIB_H

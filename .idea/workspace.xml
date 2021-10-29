@@ -12,7 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="v0.4(determinant int)">
+    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="v0.9 (without help)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_1/matrixApp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/matrixApp/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_1/matrixLib/matrixLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/matrixLib/matrixLib.cpp" afterDir="false" />
@@ -68,11 +68,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.matrixApp">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="matrixApp" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="determinantMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="matrixApp" TARGET_NAME="matrixApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="matrixApp" RUN_TARGET_NAME="matrixApp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -126,7 +121,8 @@
       <workItem from="1635450333829" duration="10951000" />
       <workItem from="1635505823292" duration="922000" />
       <workItem from="1635521666944" duration="8490000" />
-      <workItem from="1635533218340" duration="5801000" />
+      <workItem from="1635533218340" duration="7161000" />
+      <workItem from="1635540572061" duration="1657000" />
     </task>
     <task id="LOCAL-00001" summary="library">
       <created>1634630994405</created>
@@ -205,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635526916121</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="v0.9 (without help)">
+      <created>1635539210395</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1635539210395</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +233,7 @@
     <MESSAGE value="v0.2" />
     <MESSAGE value="v0.3" />
     <MESSAGE value="v0.4(determinant int)" />
-    <option name="LAST_COMMIT_MESSAGE" value="v0.4(determinant int)" />
+    <MESSAGE value="v0.9 (without help)" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.9 (without help)" />
   </component>
 </project>

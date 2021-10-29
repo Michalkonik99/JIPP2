@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/matrixApp.dir/main.cpp.o -o matrixApp  ../matrixLib/libmatrixLib.a 

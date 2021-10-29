@@ -1,0 +1,8 @@
+/home/michal/Projects/clion/JiPP2/project_1/build/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/project_1/build/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/project_1/build/matrixApp/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/project_1/build/matrixApp/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/project_1/build/matrixApp/CMakeFiles/matrixApp.dir
+/home/michal/Projects/clion/JiPP2/project_1/build/matrixLib/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/project_1/build/matrixLib/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/project_1/build/matrixLib/CMakeFiles/matrixLib.dir

@@ -29,18 +29,27 @@ bool check_input_correctness(){
 }
 
 void get_matrix_dimensions(int& rows, int& cols){
-    while(1){
-        cout << "Podaj liczbe wierszy: ";
-        cin >> rows;
-
-        if(check_input_correctness())
-            break;
-    }
     while(1) {
-        cout << "Podaj liczbe kolumn: ";
-        cin >> cols;
-        if(check_input_correctness())
-            break;
+        while (1) {
+            cout << "Podaj liczbe wierszy: ";
+            cin >> rows;
+
+            if (check_input_correctness())
+                break;
+        }
+        while (1) {
+            cout << "Podaj liczbe kolumn: ";
+            cin >> cols;
+            if (check_input_correctness())
+                break;
+        }
+
+        if (rows <= 0 || cols <= 0) {
+            cout << "Nalezy podac liczby dodatnie." << endl;
+            continue;
+        }
+
+        break;
     }
 }
 
@@ -184,7 +193,8 @@ void matrix_int_calculations(int operation_id, int argc, char* argv[]){
             }
 
             if(argc < 3){
-                cout << endl << endl << "HELP" << endl << endl;
+//                cout << endl << endl << "HELP" << endl << endl;
+                help();
                 exit(-2);
             }
 
@@ -280,6 +290,7 @@ void matrix_int_calculations(int operation_id, int argc, char* argv[]){
             print_matrix(matrix_a, rows_a, cols_a);
             break;
         default:
+            help();
             break;
     }
 
@@ -365,7 +376,8 @@ void matrix_double_calculations(int operation_id, int argc, char* argv[]){
             }
 
             if(argc < 3){
-                cout << endl << endl << "HELP" << endl << endl;
+//                cout << endl << endl << "HELP" << endl << endl;
+                help();
                 exit(-2);
             }
 
@@ -461,6 +473,7 @@ void matrix_double_calculations(int operation_id, int argc, char* argv[]){
             print_matrix(matrix_a, rows_a, cols_a);
             break;
         default:
+            help();
             break;
     }
 
@@ -488,9 +501,14 @@ int main(int argc, char* argv[]){
         string operation = argv[1];
         operation_id = check_if_operation_exists(operation);
         if(operation_id == -1) {
-            cout << endl << endl << "HELP" << endl << endl;
+//            cout << endl << endl << "HELP" << endl << endl;
+            help();
             exit(-1);
         }
+    }
+    else{
+        help();
+        exit(-1);
     }
 
     int matrix_type = -1;

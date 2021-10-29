@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/Projects/clion/JiPP2/project_1/matrixLib/matrixLib.cpp
+matrixLib.h
+/home/michal/Projects/clion/JiPP2/project_1/matrixLib/matrixLib.h
+
+/home/michal/Projects/clion/JiPP2/project_1/matrixLib/matrixLib.h
+iostream
+-
+math.h
+-
+
