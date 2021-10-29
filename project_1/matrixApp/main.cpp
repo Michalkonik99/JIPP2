@@ -205,12 +205,12 @@ void matrix_int_calculations(int operation_id, int argc, char* argv[]){
             }
             catch(const invalid_argument &err){
                 cout << "Nie mozna spotegowac macierzy, bo wprowadzono tekst zamiast liczby" << endl;
-                cout << "Aby wyswietlic dokumentacje wpis ./matrixApp help" << endl;
+                cout << "Aby wyswietlic dokumentacje wpisz ./matrixApp help" << endl;
                 exit(-2);
             }
             catch(const out_of_range &err){
                 cout << "Nie mozna spotegowac macierzy, bo odana liczba jest z poza zakresu" << endl;
-                cout << "Aby wyswietlic dokumentacje wpis ./matrixApp help" << endl;
+                cout << "Aby wyswietlic dokumentacje wpisz ./matrixApp help" << endl;
                 exit(-2);
             }
 
@@ -400,12 +400,12 @@ void matrix_double_calculations(int operation_id, int argc, char* argv[]){
             }
             catch(const invalid_argument &err){
                 cout << "Nie mozna spotegowac macierzy, bo wprowadzono tekst zamiast liczby" << endl;
-                cout << "Aby wyswietlic dokumentacje wpis ./matrixApp help" << endl;
+                cout << "Aby wyswietlic dokumentacje wpisz ./matrixApp help" << endl;
                 exit(-2);
             }
             catch(const out_of_range &err){
                 cout << "Nie mozna spotegowac macierzy, bo odana liczba jest z poza zakresu" << endl;
-                cout << "Aby wyswietlic dokumentacje wpis ./matrixApp help" << endl;
+                cout << "Aby wyswietlic dokumentacje wpisz ./matrixApp help" << endl;
                 exit(-2);
             }
 
