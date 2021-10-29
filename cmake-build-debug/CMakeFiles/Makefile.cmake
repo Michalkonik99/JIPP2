@@ -64,6 +64,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "simpleCalc/CMakeFiles/simpleCalc.dir/DependInfo.cmake"
   "zadania_lab03/CMakeFiles/homework.dir/DependInfo.cmake"
   "zadania_lab04/CMakeFiles/homework_lab04.dir/DependInfo.cmake"
-  "project_1/matrixApp/CMakeFiles/projectMatrix.dir/DependInfo.cmake"
+  "project_1/matrixApp/CMakeFiles/matrixApp.dir/DependInfo.cmake"
   "project_1/matrixLib/CMakeFiles/matrixLib.dir/DependInfo.cmake"
   )

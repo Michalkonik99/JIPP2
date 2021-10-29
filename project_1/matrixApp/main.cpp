@@ -24,20 +24,6 @@ void get_matrix_dimensions(int& rows, int& cols){
     cin >> cols;
 }
 
-void delete_matrix(int** matrix, int rows){
-    for(int i = 0; i < rows; ++i)
-        delete [] matrix[i];
-
-    delete [] matrix;
-}
-
-void delete_matrix(double** matrix, int rows){
-    for(int i = 0; i < rows; ++i)
-        delete [] matrix[i];
-
-    delete [] matrix;
-}
-
 void fill_matrix_random(int** matrix, int rows, int cols){
     for(int i = 0; i < rows; ++i)
         for(int j = 0; j < cols; ++j)
@@ -87,6 +73,13 @@ void print_matrix(double** matrix, int rows, int cols){
     }
 
     cout << "--------------------" << endl;
+}
+
+bool is_matrix_square(int rows, int cols){
+    if(rows != cols)
+        return false;
+
+    return true;
 }
 
 void matrix_int_calculations(int operation_id, int argc, char* argv[]){
@@ -152,7 +145,7 @@ void matrix_int_calculations(int operation_id, int argc, char* argv[]){
             print_matrix(matrix_c, cols_a, rows_a);
             break;
         case 5:
-            if(rows_a != cols_a){
+            if(!is_matrix_square(rows_a, cols_a)){
                 cout << "Podanej macierzy nie mozna spotegowac." << endl;
                 exit(-2);
             }
@@ -169,9 +162,18 @@ void matrix_int_calculations(int operation_id, int argc, char* argv[]){
             print_matrix(matrix_c, rows_a, cols_a);
             break;
         case 6:
+            if(!is_matrix_square(rows_a, cols_a)){
+                cout << "Nie mozna wyliczyc wyznacznika podanej macierzy." << endl;
+                exit(-2);
+            }
+
+            int determinant;
+            determinant = determinantMatrix(matrix_a, rows_a, cols_a);
+            cout << "Wyznacznik macierzy: " << determinant << endl;
+
             break;
         case 7:
-            if(rows_a != cols_a){
+            if(!is_matrix_square(rows_a, cols_a)){
                 cout << "Podana macierz nie jest diagonalna." << endl;
                 exit(-2);
             }

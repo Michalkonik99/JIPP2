@@ -169,17 +169,17 @@ homework_lab04/fast:
 .PHONY : homework_lab04/fast
 
 #=============================================================================
-# Target rules for targets named projectMatrix
+# Target rules for targets named matrixApp
 
 # Build rule for target.
-projectMatrix: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 projectMatrix
-.PHONY : projectMatrix
+matrixApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matrixApp
+.PHONY : matrixApp
 
 # fast build rule for target.
-projectMatrix/fast:
-	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/build
-.PHONY : projectMatrix/fast
+matrixApp/fast:
+	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/build
+.PHONY : matrixApp/fast
 
 #=============================================================================
 # Target rules for targets named matrixLib
@@ -205,8 +205,8 @@ help:
 	@echo "... allocation_basics"
 	@echo "... homework"
 	@echo "... homework_lab04"
+	@echo "... matrixApp"
 	@echo "... matrixLib"
-	@echo "... projectMatrix"
 	@echo "... simpleCalc"
 .PHONY : help
 

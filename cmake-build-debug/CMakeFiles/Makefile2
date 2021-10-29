@@ -123,7 +123,7 @@ project_1/clean: project_1/matrixLib/clean
 # Directory level rules for directory project_1/matrixApp
 
 # Recursive "all" directory target.
-project_1/matrixApp/all: project_1/matrixApp/CMakeFiles/projectMatrix.dir/all
+project_1/matrixApp/all: project_1/matrixApp/CMakeFiles/matrixApp.dir/all
 .PHONY : project_1/matrixApp/all
 
 # Recursive "preinstall" directory target.
@@ -131,7 +131,7 @@ project_1/matrixApp/preinstall:
 .PHONY : project_1/matrixApp/preinstall
 
 # Recursive "clean" directory target.
-project_1/matrixApp/clean: project_1/matrixApp/CMakeFiles/projectMatrix.dir/clean
+project_1/matrixApp/clean: project_1/matrixApp/CMakeFiles/matrixApp.dir/clean
 .PHONY : project_1/matrixApp/clean
 
 #=============================================================================
@@ -299,30 +299,30 @@ zadania_lab04/CMakeFiles/homework_lab04.dir/clean:
 .PHONY : zadania_lab04/CMakeFiles/homework_lab04.dir/clean
 
 #=============================================================================
-# Target rules for target project_1/matrixApp/CMakeFiles/projectMatrix.dir
+# Target rules for target project_1/matrixApp/CMakeFiles/matrixApp.dir
 
 # All Build rule for target.
-project_1/matrixApp/CMakeFiles/projectMatrix.dir/all: project_1/matrixLib/CMakeFiles/matrixLib.dir/all
-	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/depend
-	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/clion/JiPP2/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target projectMatrix"
-.PHONY : project_1/matrixApp/CMakeFiles/projectMatrix.dir/all
+project_1/matrixApp/CMakeFiles/matrixApp.dir/all: project_1/matrixLib/CMakeFiles/matrixLib.dir/all
+	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/depend
+	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/clion/JiPP2/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target matrixApp"
+.PHONY : project_1/matrixApp/CMakeFiles/matrixApp.dir/all
 
 # Build rule for subdir invocation for target.
-project_1/matrixApp/CMakeFiles/projectMatrix.dir/rule: cmake_check_build_system
+project_1/matrixApp/CMakeFiles/matrixApp.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/clion/JiPP2/cmake-build-debug/CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_1/matrixApp/CMakeFiles/projectMatrix.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_1/matrixApp/CMakeFiles/matrixApp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/clion/JiPP2/cmake-build-debug/CMakeFiles 0
-.PHONY : project_1/matrixApp/CMakeFiles/projectMatrix.dir/rule
+.PHONY : project_1/matrixApp/CMakeFiles/matrixApp.dir/rule
 
 # Convenience name for target.
-projectMatrix: project_1/matrixApp/CMakeFiles/projectMatrix.dir/rule
-.PHONY : projectMatrix
+matrixApp: project_1/matrixApp/CMakeFiles/matrixApp.dir/rule
+.PHONY : matrixApp
 
 # clean rule for target.
-project_1/matrixApp/CMakeFiles/projectMatrix.dir/clean:
-	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/clean
-.PHONY : project_1/matrixApp/CMakeFiles/projectMatrix.dir/clean
+project_1/matrixApp/CMakeFiles/matrixApp.dir/clean:
+	$(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/clean
+.PHONY : project_1/matrixApp/CMakeFiles/matrixApp.dir/clean
 
 #=============================================================================
 # Target rules for target project_1/matrixLib/CMakeFiles/matrixLib.dir
@@ -331,7 +331,7 @@ project_1/matrixApp/CMakeFiles/projectMatrix.dir/clean:
 project_1/matrixLib/CMakeFiles/matrixLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f project_1/matrixLib/CMakeFiles/matrixLib.dir/build.make project_1/matrixLib/CMakeFiles/matrixLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f project_1/matrixLib/CMakeFiles/matrixLib.dir/build.make project_1/matrixLib/CMakeFiles/matrixLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/clion/JiPP2/cmake-build-debug/CMakeFiles --progress-num=10,11 "Built target matrixLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/michal/Projects/clion/JiPP2/cmake-build-debug/CMakeFiles --progress-num=12,13 "Built target matrixLib"
 .PHONY : project_1/matrixLib/CMakeFiles/matrixLib.dir/all
 
 # Build rule for subdir invocation for target.

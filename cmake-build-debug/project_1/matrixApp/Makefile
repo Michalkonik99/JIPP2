@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/michal/Projects/clion/JiPP2/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/169/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/169/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -117,25 +117,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-project_1/matrixApp/CMakeFiles/projectMatrix.dir/rule:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_1/matrixApp/CMakeFiles/projectMatrix.dir/rule
-.PHONY : project_1/matrixApp/CMakeFiles/projectMatrix.dir/rule
+project_1/matrixApp/CMakeFiles/matrixApp.dir/rule:
+	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_1/matrixApp/CMakeFiles/matrixApp.dir/rule
+.PHONY : project_1/matrixApp/CMakeFiles/matrixApp.dir/rule
 
 # Convenience name for target.
-projectMatrix: project_1/matrixApp/CMakeFiles/projectMatrix.dir/rule
-.PHONY : projectMatrix
+matrixApp: project_1/matrixApp/CMakeFiles/matrixApp.dir/rule
+.PHONY : matrixApp
 
 # fast build rule for target.
-projectMatrix/fast:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/build
-.PHONY : projectMatrix/fast
+matrixApp/fast:
+	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/build
+.PHONY : matrixApp/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/main.cpp.o
+	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -143,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/main.cpp.i
+	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -151,7 +151,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/projectMatrix.dir/build.make project_1/matrixApp/CMakeFiles/projectMatrix.dir/main.cpp.s
+	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f project_1/matrixApp/CMakeFiles/matrixApp.dir/build.make project_1/matrixApp/CMakeFiles/matrixApp.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -162,7 +162,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... projectMatrix"
+	@echo "... matrixApp"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

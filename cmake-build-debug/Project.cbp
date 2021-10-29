@@ -213,8 +213,8 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="projectMatrix">
-				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/projectMatrix" prefix_auto="0" extension_auto="0"/>
+			<Target title="matrixApp">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/matrixApp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -230,14 +230,14 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 projectMatrix"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 matrixApp"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="projectMatrix/fast">
-				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/projectMatrix" prefix_auto="0" extension_auto="0"/>
+			<Target title="matrixApp/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/matrixApp" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -253,7 +253,7 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 projectMatrix/fast"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 matrixApp/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1/matrixApp/Makefile&quot;  VERBOSE=1 clean"/>
@@ -308,7 +308,7 @@
 			<Option target="allocation_basics"/>
 		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixApp/main.cpp">
-			<Option target="projectMatrix"/>
+			<Option target="matrixApp"/>
 		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixLib/matrixLib.cpp">
 			<Option target="matrixLib"/>

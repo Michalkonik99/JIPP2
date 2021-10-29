@@ -254,6 +254,12 @@ homework_lab04_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-d
 homework_lab04_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/zadania_lab04
 
 //Value Computed by CMake
+matrixApp_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1
+
+//Value Computed by CMake
+matrixApp_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/project_1
+
+//Value Computed by CMake
 projectMatrix_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1
 
 //Value Computed by CMake

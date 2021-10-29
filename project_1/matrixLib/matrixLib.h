@@ -2,10 +2,13 @@
 #define JIPP2_MATRIXLIB_H
 
 #include <iostream>
+#include <math.h>
 using namespace std;
 
 int** create_matrix_int(int, int);
 double** create_matrix_double(int, int);
+void delete_matrix(int**, int);
+void delete_matrix(double**, int);
 int** addMatrix(int**, int**, int, int);
 double** addMatrix(double**, double**, int, int);
 int** subtractMatrix(int**, int**, int, int);
@@ -25,5 +28,7 @@ void swap(int&, int&);
 void sortRow(int*, int);
 
 void sortRowsInMatrix(int**, int, int);
+
+int determinantMatrix(int**, int, int);
 
 #endif //JIPP2_MATRIXLIB_H
