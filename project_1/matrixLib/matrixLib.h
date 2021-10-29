@@ -16,19 +16,19 @@ double** subtractMatrix(double**, double**, int, int);
 int** multiplyMatrix(int**, int**, int, int, int);
 double** multiplyMatrix(double**, double**, int, int, int);
 int** multiplyByScalar(int**, int, int, int);
-
+double** multiplyByScalar(double**, int, int, double);
 int** transpozeMatrix(int**, int, int);
-
+double** transpozeMatrix(double**, int, int);
 int** powerMatrix(int**, int, int, unsigned int);
-
-bool matrixIsDiagonal(int**, int, int);
-
-void swap(int&, int&);
-
-void sortRow(int*, int);
-
-void sortRowsInMatrix(int**, int, int);
-
+double** powerMatrix(double**, int, int, unsigned int);
 int determinantMatrix(int**, int, int);
+double determinantMatrix(double**, int, int);
+bool matrixIsDiagonal(int**, int, int);
+bool matrixIsDiagonal(double**, int, int);
+void swap(int&, int&);
+void sortRow(int*, int);
+void sortRow(double*, int);
+void sortRowsInMatrix(int**, int, int);
+void sortRowsInMatrix(double**, int, int);
 
 #endif //JIPP2_MATRIXLIB_H
