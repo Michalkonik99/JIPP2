@@ -16,23 +16,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="all">
-      <change afterPath="$PROJECT_DIR$/project_1/matrixLib/matrixMethods.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project_1/matrixLib/matrixMethods.h" afterDir="false" />
+    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="v0.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixApp/CMakeFiles/projectMatrix.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixApp/CMakeFiles/projectMatrix.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixApp/projectMatrix" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixApp/projectMatrix" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixLib/CMakeFiles/matrixLib.dir/matrixLib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixLib/CMakeFiles/matrixLib.dir/matrixLib.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixLib/libmatrixLib.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/project_1/matrixLib/libmatrixLib.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_1/build/matrixApp/CMakeFiles/projectMatrix.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/build/matrixApp/CMakeFiles/projectMatrix.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_1/build/matrixApp/CMakeFiles/projectMatrix.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/build/matrixApp/CMakeFiles/projectMatrix.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_1/build/matrixApp/projectMatrix" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/build/matrixApp/projectMatrix" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_1/build/matrixLib/CMakeFiles/matrixLib.dir/matrixLib.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/build/matrixLib/CMakeFiles/matrixLib.dir/matrixLib.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project_1/build/matrixLib/libmatrixLib.a" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/build/matrixLib/libmatrixLib.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_1/matrixApp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/matrixApp/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_1/matrixLib/matrixLib.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/matrixLib/matrixLib.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_1/matrixLib/matrixLib.h" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/matrixLib/matrixLib.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_1/matrixLib/matrixMethods.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_1/matrixLib/matrixMethods.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +79,11 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.projectMatrix">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="allocation_basics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="allocation_basics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="allocation_basics">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -104,7 +104,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projectMatrix" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="projectMatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="projectMatrix">
+    <configuration name="projectMatrix" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sortRowsInMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="projectMatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="projectMatrix">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -147,7 +147,7 @@
       <workItem from="1635423397309" duration="5741000" />
       <workItem from="1635438499597" duration="307000" />
       <workItem from="1635446698882" duration="2443000" />
-      <workItem from="1635450333829" duration="3000" />
+      <workItem from="1635450333829" duration="10692000" />
     </task>
     <task id="LOCAL-00001" summary="library">
       <created>1634630994405</created>
@@ -205,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635379424532</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="v0.2">
+      <created>1635450344983</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1635450344983</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,6 +234,7 @@
     <MESSAGE value="library" />
     <MESSAGE value="zad_1" />
     <MESSAGE value="all" />
-    <option name="LAST_COMMIT_MESSAGE" value="all" />
+    <MESSAGE value="v0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="v0.2" />
   </component>
 </project>

@@ -89,3 +89,56 @@ int** multiplyByScalar(int** matrix_a, int rows, int cols, int scalar){
 
     return matrix_c;
 }
+
+int** transpozeMatrix(int** matrix_a, int rows, int cols){
+    int** matrix_c = create_matrix_int(cols, rows);
+
+    for(int i = 0; i < rows; ++i)
+        for(int j = 0; j < cols; ++j)
+            matrix_c[j][i] = matrix_a[i][j];
+
+    return matrix_c;
+}
+
+int** powerMatrix(int** matrix_a, int rows, int cols, unsigned int power){
+    int** matrix_c = create_matrix_int(cols, rows);
+
+    for(int i = 0; i < rows; ++i)
+        for(int j = 0; j < cols; ++j)
+            matrix_c[i][j] = matrix_a[i][j];
+
+    for(int i = 1; i < power; ++i)
+        matrix_c = multiplyMatrix(matrix_c, matrix_a, rows, cols, cols);
+
+    return matrix_c;
+}
+
+bool matrixIsDiagonal(int** matrix, int rows, int cols){
+    for(int i = 0; i < rows; i++){
+        for(int j = 0; j < cols; j++){
+            if(i != j && matrix[i][j] != 0)
+                return false;
+        }
+    }
+
+    return true;
+}
+
+void swap(int& a, int& b){
+    int tmp = a;
+    a = b;
+    b = tmp;
+}
+
+void sortRow(int* arr, int cols){
+    for(int i = 0; i < cols - 1; ++i){
+        for(int j = 0; j < cols - i - 1; ++j)
+            if(arr[j] > arr[j + 1])
+                swap(arr[j], arr[j + 1]);
+    }
+}
+
+void sortRowsInMatrix(int** matrix, int rows, int cols){
+    for(int i = 0; i < rows; ++i)
+        sortRow(matrix[i], cols);
+}
