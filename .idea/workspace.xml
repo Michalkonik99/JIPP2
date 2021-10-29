@@ -12,7 +12,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="v1.01">
+    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="v1.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_1/build/matrixApp/CMakeFiles/matrixApp.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/build/matrixApp/CMakeFiles/matrixApp.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project_1/build/matrixApp/matrixApp" beforeDir="false" afterPath="$PROJECT_DIR$/project_1/build/matrixApp/matrixApp" afterDir="false" />
@@ -122,7 +122,7 @@
       <workItem from="1635505823292" duration="922000" />
       <workItem from="1635521666944" duration="8490000" />
       <workItem from="1635533218340" duration="7161000" />
-      <workItem from="1635540572061" duration="3236000" />
+      <workItem from="1635540572061" duration="3454000" />
     </task>
     <task id="LOCAL-00001" summary="library">
       <created>1634630994405</created>
@@ -222,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635542846125</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="v1.1">
+      <created>1635543900009</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1635543900009</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +257,7 @@
     <MESSAGE value="v0.9 (without help)" />
     <MESSAGE value="v1.0" />
     <MESSAGE value="v1.01" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.01" />
+    <MESSAGE value="v1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.1" />
   </component>
 </project>
