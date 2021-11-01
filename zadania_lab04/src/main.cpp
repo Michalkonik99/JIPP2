@@ -1,45 +1,30 @@
-#include <iostream>
+#include "zadanie_01.h"
+#include "Cuboid.h"
 
-using namespace std;
+bool check_input_correctness(){
+    if(cin.fail()){
+        cout << "Podano litere zamiast liczby." << endl;
 
-struct samochod{
-    string brand;
-    string model;
-    int year;
-    string color;
-    int price;
-};
+        cin.clear();
+        cin.ignore();
 
-int get_brands_number(samochod cars[], int arr_len){
-    int sum = 0;
-    for(int i = 0; i < arr_len; i++){
-        for(int j = 1; j < arr_len; j+= 1 + i)
-            if(i != j && cars[i].brand == cars[j].brand)
-                sum += 1;
+        return false;
     }
 
-    return sum;
+    return true;
 }
 
-int get_newest_car(samochod cars[], int arr_len){
-    int id = 0;
-
-    for(int i = 0; i < arr_len; i++){
-        if(cars[id].year < cars[i].year)
-            id = i;
-    }
-
-    return id;
-}
-
-int main(){
-    int arr_len = 4;
+void task_01(){
     samochod cars[] = {
-            {"toyota", "prius", 2020, "grey", 10000},
             {"opel", "astra", 2001, "blue", 15000},
+            {"opel", "insignia", 2010, "blue", 17500},
+            {"opel", "insignia", 2010, "blue", 17500},
+            {"opel", "insignia", 2010, "blue", 17500},
             {"ferrari", "enzo", 2021, "red", 600000},
-            {"renault", "clio", 2015, "white", 23000}
+            {"renault", "clio", 2015, "white", 23000},
+            {"toyota", "prius", 2020, "grey", 10000},
     };
+    int arr_len = sizeof(cars) / sizeof(cars[0]);
 
     for(int i = 0; i < arr_len; i++)
         cout << cars[i].brand << " | " << cars[i].model << " | " << cars[i].year << " | " << cars[i].color << " | " << cars[i].price << endl;
@@ -49,4 +34,39 @@ int main(){
 
     int newest_car_id = get_newest_car(cars, arr_len);
     cout << "The newest car is " << cars[newest_car_id].brand << " " << cars[newest_car_id].model << endl;
+}
+
+void task_02(){
+    Cuboid cuboid = Cuboid(3, 4, 5);
+
+    cout << cuboid.get_value_a() << endl << cuboid.get_value_b() << cuboid.get_value_h() << endl;
+}
+
+int main(){
+    int homework_task = 0;
+
+    while(!homework_task) {
+        cout << "Podaj nr zadania (1-3): " << endl;
+        cin >> homework_task;
+
+        if(!check_input_correctness())
+            continue;
+
+        switch (homework_task) {
+            case 1:
+                task_01();
+                break;
+            case 2:
+                task_02();
+                break;
+            case 3:
+                break;
+            default:
+                homework_task = 0;
+                cout << "Nie istnieje takie zadanie. Sprobuj ponownie." << endl;
+                break;
+        }
+    }
+
+    return 0;
 }

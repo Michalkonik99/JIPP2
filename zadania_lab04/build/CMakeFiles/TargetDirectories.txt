@@ -1,3 +1,8 @@
 /home/michal/Projects/clion/JiPP2/zadania_lab04/build/CMakeFiles/rebuild_cache.dir
 /home/michal/Projects/clion/JiPP2/zadania_lab04/build/CMakeFiles/edit_cache.dir
-/home/michal/Projects/clion/JiPP2/zadania_lab04/build/CMakeFiles/homework_lab04.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab04/build/lib/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab04/build/lib/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab04/build/src/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab04/build/src/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir

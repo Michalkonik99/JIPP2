@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/michal/Projects/clion/JiPP2/zadania_lab04/lib/include/zadanie_01.h
+iostream
+-
+
+/home/michal/Projects/clion/JiPP2/zadania_lab04/lib/src/zadanie_01.cpp
+../include/zadanie_01.h
+/home/michal/Projects/clion/JiPP2/zadania_lab04/lib/include/zadanie_01.h
+

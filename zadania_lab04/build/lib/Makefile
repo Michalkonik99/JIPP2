@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/michal/Projects/clion/JiPP2/zadania_lab04/build
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -78,16 +67,27 @@ edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
 
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/clion/JiPP2/zadania_lab04/build/CMakeFiles /home/michal/Projects/clion/JiPP2/zadania_lab04/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/clion/JiPP2/zadania_lab04/build/CMakeFiles /home/michal/Projects/clion/JiPP2/zadania_lab04/build/lib/CMakeFiles/progress.marks
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f CMakeFiles/Makefile2 lib/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/michal/Projects/clion/JiPP2/zadania_lab04/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f CMakeFiles/Makefile2 lib/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,44 +97,60 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f CMakeFiles/Makefile2 lib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named zadanie01_lib
+# Convenience name for target.
+lib/CMakeFiles/zadanie01_lib.dir/rule:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f CMakeFiles/Makefile2 lib/CMakeFiles/zadanie01_lib.dir/rule
+.PHONY : lib/CMakeFiles/zadanie01_lib.dir/rule
 
-# Build rule for target.
-zadanie01_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 zadanie01_lib
+# Convenience name for target.
+zadanie01_lib: lib/CMakeFiles/zadanie01_lib.dir/rule
+
 .PHONY : zadanie01_lib
 
 # fast build rule for target.
 zadanie01_lib/fast:
-	$(MAKE) -f lib/CMakeFiles/zadanie01_lib.dir/build.make lib/CMakeFiles/zadanie01_lib.dir/build
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f lib/CMakeFiles/zadanie01_lib.dir/build.make lib/CMakeFiles/zadanie01_lib.dir/build
 .PHONY : zadanie01_lib/fast
 
-#=============================================================================
-# Target rules for targets named homework_lab04
+src/zadanie_01.o: src/zadanie_01.cpp.o
 
-# Build rule for target.
-homework_lab04: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 homework_lab04
-.PHONY : homework_lab04
+.PHONY : src/zadanie_01.o
 
-# fast build rule for target.
-homework_lab04/fast:
-	$(MAKE) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/build
-.PHONY : homework_lab04/fast
+# target to build an object file
+src/zadanie_01.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f lib/CMakeFiles/zadanie01_lib.dir/build.make lib/CMakeFiles/zadanie01_lib.dir/src/zadanie_01.cpp.o
+.PHONY : src/zadanie_01.cpp.o
+
+src/zadanie_01.i: src/zadanie_01.cpp.i
+
+.PHONY : src/zadanie_01.i
+
+# target to preprocess a source file
+src/zadanie_01.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f lib/CMakeFiles/zadanie01_lib.dir/build.make lib/CMakeFiles/zadanie01_lib.dir/src/zadanie_01.cpp.i
+.PHONY : src/zadanie_01.cpp.i
+
+src/zadanie_01.s: src/zadanie_01.cpp.s
+
+.PHONY : src/zadanie_01.s
+
+# target to generate assembly for a file
+src/zadanie_01.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(MAKE) -f lib/CMakeFiles/zadanie01_lib.dir/build.make lib/CMakeFiles/zadanie01_lib.dir/src/zadanie_01.cpp.s
+.PHONY : src/zadanie_01.cpp.s
 
 # Help Target
 help:
@@ -142,10 +158,12 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
 	@echo "... zadanie01_lib"
-	@echo "... homework_lab04"
+	@echo "... src/zadanie_01.o"
+	@echo "... src/zadanie_01.i"
+	@echo "... src/zadanie_01.s"
 .PHONY : help
 
 
@@ -157,6 +175,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
