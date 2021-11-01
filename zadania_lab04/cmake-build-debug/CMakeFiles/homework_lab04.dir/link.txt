@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/homework_lab04.dir/src/main.cpp.o CMakeFiles/homework_lab04.dir/lib/zadanie_01.cpp.o -o homework_lab04 
