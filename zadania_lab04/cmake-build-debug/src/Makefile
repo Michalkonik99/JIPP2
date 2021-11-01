@@ -130,6 +130,102 @@ homework_lab04/fast:
 	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/build
 .PHONY : homework_lab04/fast
 
+Ball.o: Ball.cpp.o
+.PHONY : Ball.o
+
+# target to build an object file
+Ball.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Ball.cpp.o
+.PHONY : Ball.cpp.o
+
+Ball.i: Ball.cpp.i
+.PHONY : Ball.i
+
+# target to preprocess a source file
+Ball.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Ball.cpp.i
+.PHONY : Ball.cpp.i
+
+Ball.s: Ball.cpp.s
+.PHONY : Ball.s
+
+# target to generate assembly for a file
+Ball.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Ball.cpp.s
+.PHONY : Ball.cpp.s
+
+Cuboid.o: Cuboid.cpp.o
+.PHONY : Cuboid.o
+
+# target to build an object file
+Cuboid.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o
+.PHONY : Cuboid.cpp.o
+
+Cuboid.i: Cuboid.cpp.i
+.PHONY : Cuboid.i
+
+# target to preprocess a source file
+Cuboid.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.i
+.PHONY : Cuboid.cpp.i
+
+Cuboid.s: Cuboid.cpp.s
+.PHONY : Cuboid.s
+
+# target to generate assembly for a file
+Cuboid.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.s
+.PHONY : Cuboid.cpp.s
+
+QuadraticFunction.o: QuadraticFunction.cpp.o
+.PHONY : QuadraticFunction.o
+
+# target to build an object file
+QuadraticFunction.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o
+.PHONY : QuadraticFunction.cpp.o
+
+QuadraticFunction.i: QuadraticFunction.cpp.i
+.PHONY : QuadraticFunction.i
+
+# target to preprocess a source file
+QuadraticFunction.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.i
+.PHONY : QuadraticFunction.cpp.i
+
+QuadraticFunction.s: QuadraticFunction.cpp.s
+.PHONY : QuadraticFunction.s
+
+# target to generate assembly for a file
+QuadraticFunction.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.s
+.PHONY : QuadraticFunction.cpp.s
+
+Student.o: Student.cpp.o
+.PHONY : Student.o
+
+# target to build an object file
+Student.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Student.cpp.o
+.PHONY : Student.cpp.o
+
+Student.i: Student.cpp.i
+.PHONY : Student.i
+
+# target to preprocess a source file
+Student.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Student.cpp.i
+.PHONY : Student.cpp.i
+
+Student.s: Student.cpp.s
+.PHONY : Student.s
+
+# target to generate assembly for a file
+Student.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Student.cpp.s
+.PHONY : Student.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -163,6 +259,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... homework_lab04"
+	@echo "... Ball.o"
+	@echo "... Ball.i"
+	@echo "... Ball.s"
+	@echo "... Cuboid.o"
+	@echo "... Cuboid.i"
+	@echo "... Cuboid.s"
+	@echo "... QuadraticFunction.o"
+	@echo "... QuadraticFunction.i"
+	@echo "... QuadraticFunction.s"
+	@echo "... Student.o"
+	@echo "... Student.i"
+	@echo "... Student.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

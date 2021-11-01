@@ -9,13 +9,13 @@ private:
     int h;
 
 public:
-    Cuboid(int a, int b, int h);
+    Cuboid(int, int, int);
     int surface_area();
-    void set_value_a(int value_a);
+    void set_value_a(int);
     int get_value_a();
-    void set_value_b(int value_b);
+    void set_value_b(int);
     int get_value_b();
-    void set_value_h(int value_h);
+    void set_value_h(int);
     int get_value_h();
 };
 

@@ -133,6 +133,18 @@
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/lib/src/zadanie_01.cpp">
 			<Option target="zadanie01_lib"/>
 		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Ball.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Cuboid.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/QuadraticFunction.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/main.cpp">
 			<Option target="homework_lab04"/>
 		</Unit>

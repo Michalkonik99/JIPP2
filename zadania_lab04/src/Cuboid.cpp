@@ -1,9 +1,9 @@
 #include "Cuboid.h"
 
-Cuboid::Cuboid(a, b, c){
+Cuboid::Cuboid(int a, int b, int h){
     this->a = a;
     this->b = b;
-    this->c = c;
+    this->h = h;
 }
 
 int Cuboid::surface_area(){

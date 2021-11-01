@@ -79,18 +79,78 @@ src/CMakeFiles/homework_lab04.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/homework_lab04.dir/main.cpp.s"
 	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/clion/JiPP2/zadania_lab04/src/main.cpp -o CMakeFiles/homework_lab04.dir/main.cpp.s
 
+src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o: src/CMakeFiles/homework_lab04.dir/flags.make
+src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o: ../src/Cuboid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/homework_lab04.dir/Cuboid.cpp.o -c /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Cuboid.cpp
+
+src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/homework_lab04.dir/Cuboid.cpp.i"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Cuboid.cpp > CMakeFiles/homework_lab04.dir/Cuboid.cpp.i
+
+src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/homework_lab04.dir/Cuboid.cpp.s"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Cuboid.cpp -o CMakeFiles/homework_lab04.dir/Cuboid.cpp.s
+
+src/CMakeFiles/homework_lab04.dir/Ball.cpp.o: src/CMakeFiles/homework_lab04.dir/flags.make
+src/CMakeFiles/homework_lab04.dir/Ball.cpp.o: ../src/Ball.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/homework_lab04.dir/Ball.cpp.o"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/homework_lab04.dir/Ball.cpp.o -c /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Ball.cpp
+
+src/CMakeFiles/homework_lab04.dir/Ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/homework_lab04.dir/Ball.cpp.i"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Ball.cpp > CMakeFiles/homework_lab04.dir/Ball.cpp.i
+
+src/CMakeFiles/homework_lab04.dir/Ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/homework_lab04.dir/Ball.cpp.s"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Ball.cpp -o CMakeFiles/homework_lab04.dir/Ball.cpp.s
+
+src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o: src/CMakeFiles/homework_lab04.dir/flags.make
+src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o: ../src/QuadraticFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o -c /home/michal/Projects/clion/JiPP2/zadania_lab04/src/QuadraticFunction.cpp
+
+src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.i"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Projects/clion/JiPP2/zadania_lab04/src/QuadraticFunction.cpp > CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.i
+
+src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.s"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/clion/JiPP2/zadania_lab04/src/QuadraticFunction.cpp -o CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.s
+
+src/CMakeFiles/homework_lab04.dir/Student.cpp.o: src/CMakeFiles/homework_lab04.dir/flags.make
+src/CMakeFiles/homework_lab04.dir/Student.cpp.o: ../src/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/homework_lab04.dir/Student.cpp.o"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/homework_lab04.dir/Student.cpp.o -c /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp
+
+src/CMakeFiles/homework_lab04.dir/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/homework_lab04.dir/Student.cpp.i"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp > CMakeFiles/homework_lab04.dir/Student.cpp.i
+
+src/CMakeFiles/homework_lab04.dir/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/homework_lab04.dir/Student.cpp.s"
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp -o CMakeFiles/homework_lab04.dir/Student.cpp.s
+
 # Object files for target homework_lab04
 homework_lab04_OBJECTS = \
-"CMakeFiles/homework_lab04.dir/main.cpp.o"
+"CMakeFiles/homework_lab04.dir/main.cpp.o" \
+"CMakeFiles/homework_lab04.dir/Cuboid.cpp.o" \
+"CMakeFiles/homework_lab04.dir/Ball.cpp.o" \
+"CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o" \
+"CMakeFiles/homework_lab04.dir/Student.cpp.o"
 
 # External object files for target homework_lab04
 homework_lab04_EXTERNAL_OBJECTS =
 
 src/homework_lab04: src/CMakeFiles/homework_lab04.dir/main.cpp.o
+src/homework_lab04: src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o
+src/homework_lab04: src/CMakeFiles/homework_lab04.dir/Ball.cpp.o
+src/homework_lab04: src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o
+src/homework_lab04: src/CMakeFiles/homework_lab04.dir/Student.cpp.o
 src/homework_lab04: src/CMakeFiles/homework_lab04.dir/build.make
 src/homework_lab04: lib/libzadanie01_lib.a
 src/homework_lab04: src/CMakeFiles/homework_lab04.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable homework_lab04"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable homework_lab04"
 	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/homework_lab04.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
