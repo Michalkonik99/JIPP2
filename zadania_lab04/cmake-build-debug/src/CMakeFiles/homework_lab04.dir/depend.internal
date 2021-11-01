@@ -7,16 +7,31 @@ src/CMakeFiles/homework_lab04.dir/Ball.cpp.o
 src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o
  ../include/Cuboid.h
  /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Cuboid.cpp
+src/CMakeFiles/homework_lab04.dir/Figure.cpp.o
+ ../include/Point.h
+ ../include/main.h
+ /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Figure.cpp
+ /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Figure.h
+src/CMakeFiles/homework_lab04.dir/Point.cpp.o
+ ../include/Point.h
+ /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Point.cpp
 src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o
  ../include/QuadraticFunction.h
  /home/michal/Projects/clion/JiPP2/zadania_lab04/src/QuadraticFunction.cpp
 src/CMakeFiles/homework_lab04.dir/Student.cpp.o
  ../include/Student.h
  /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp
+src/CMakeFiles/homework_lab04.dir/TestMemory.cpp.o
+ /home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.cpp
+ /home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.h
 src/CMakeFiles/homework_lab04.dir/main.cpp.o
  ../include/Ball.h
  ../include/Cuboid.h
+ ../include/Point.h
  ../include/QuadraticFunction.h
  ../include/Student.h
+ ../include/main.h
  ../lib/include/zadanie_01.h
+ /home/michal/Projects/clion/JiPP2/zadania_lab04/src/Figure.h
+ /home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.h
  /home/michal/Projects/clion/JiPP2/zadania_lab04/src/main.cpp

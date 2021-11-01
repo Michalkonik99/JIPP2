@@ -2,7 +2,11 @@
 #include "Cuboid.h"
 #include "Ball.h"
 #include "QuadraticFunction.h"
-#include <Student.h>
+#include "Student.h"
+#include "Point.h"
+#include "Figure.h"
+#include "TestMemory.h"
+#include "main.h"
 
 bool check_input_correctness(){
     if(cin.fail()){
@@ -115,16 +119,71 @@ void task_02(){
         else{
             task = 0;
             cout << "Brak cwiczenia o podanym numerze." << endl;
-            continue;
         }
     }
+}
+
+void task_03(){
+    int task = 0;
+
+    while(!task){
+        cout << "Podaj nr cwiczenia z zadania 2 (1-2): ";
+        cin >> task;
+
+        if(!check_input_correctness()) continue;
+
+        if(task == 1){
+            int axis_x, axis_y;
+            Point points[2];
+
+            for(int i = 0; i < 2; ++i) {
+                while (1) {
+                    cout << "Podaj wspolrzedne punktu nr " << i << " (x, y)" << endl;
+                    cin >> axis_x >> axis_y;
+
+                    if (check_input_correctness()) break;
+                }
+                points[i] = Point(axis_x, axis_y);
+            }
+
+            double distance = points[0].calculate_distance(points[1]);
+            cout << "Odleglosc miedzy punktami: " << distance << endl;
+        }
+        else if(task == 2){
+            int vertex_number;
+
+            while(1){
+                cout << "Podaj liczbe wierzcholkow: ";
+                cin >> vertex_number;
+
+                if(check_input_correctness()){
+                    if(vertex_number > 0) break;
+
+                    cout << "Liczba wierzcholkow musi byc nieujemna." << endl;
+                }
+            }
+
+            Figure figure = Figure(vertex_number);
+            figure.set_vertexes();
+            figure.get_vertexes();
+        }
+        else{
+            task = 0;
+            cout << "Brak cwiczenia o podanym numerze." << endl;
+        }
+    }
+}
+
+void task_04(){
+    TestMemory testMemory;
+    testMemory.pause();
 }
 
 int main(){
     int homework_task = 0;
 
     while(!homework_task) {
-        cout << "Podaj nr zadania (1-3): " << endl;
+        cout << "Podaj nr zadania (1-4): " << endl;
         cin >> homework_task;
 
         if(!check_input_correctness()) continue;
@@ -137,6 +196,10 @@ int main(){
                 task_02();
                 break;
             case 3:
+                task_03();
+                break;
+            case 4:
+                task_04();
                 break;
             default:
                 homework_task = 0;

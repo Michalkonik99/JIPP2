@@ -139,10 +139,25 @@
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Cuboid.cpp">
 			<Option target="homework_lab04"/>
 		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Figure.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Figure.h">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Point.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/QuadraticFunction.cpp">
 			<Option target="homework_lab04"/>
 		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.cpp">
+			<Option target="homework_lab04"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.h">
 			<Option target="homework_lab04"/>
 		</Unit>
 		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/main.cpp">

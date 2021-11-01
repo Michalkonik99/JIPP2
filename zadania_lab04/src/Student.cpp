@@ -9,5 +9,5 @@ Student::Student(string name, string last_name, int album_number, int questions,
 }
 
 double Student::correct_answers_ratio() {
-    return correct_answers / questions;
+    return (double)correct_answers / (double)questions;
 }

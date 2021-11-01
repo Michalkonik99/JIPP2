@@ -10,8 +10,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Ball.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/Ball.cpp.o"
   "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Cuboid.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o"
+  "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Figure.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/Figure.cpp.o"
+  "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Point.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/Point.cpp.o"
   "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/QuadraticFunction.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o"
   "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/Student.cpp.o"
+  "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/TestMemory.cpp.o"
   "/home/michal/Projects/clion/JiPP2/zadania_lab04/src/main.cpp" "/home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

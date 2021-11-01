@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/Student.h
+/home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.cpp
+TestMemory.h
+/home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab04/src/TestMemory.h
 iostream
 -
-
-/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.cpp
-Student.h
-/home/michal/Projects/clion/JiPP2/zadania_lab04/src/Student.h
 

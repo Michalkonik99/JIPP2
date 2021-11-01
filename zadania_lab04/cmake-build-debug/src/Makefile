@@ -178,6 +178,54 @@ Cuboid.cpp.s:
 	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.s
 .PHONY : Cuboid.cpp.s
 
+Figure.o: Figure.cpp.o
+.PHONY : Figure.o
+
+# target to build an object file
+Figure.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Figure.cpp.o
+.PHONY : Figure.cpp.o
+
+Figure.i: Figure.cpp.i
+.PHONY : Figure.i
+
+# target to preprocess a source file
+Figure.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Figure.cpp.i
+.PHONY : Figure.cpp.i
+
+Figure.s: Figure.cpp.s
+.PHONY : Figure.s
+
+# target to generate assembly for a file
+Figure.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Figure.cpp.s
+.PHONY : Figure.cpp.s
+
+Point.o: Point.cpp.o
+.PHONY : Point.o
+
+# target to build an object file
+Point.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Point.cpp.o
+.PHONY : Point.cpp.o
+
+Point.i: Point.cpp.i
+.PHONY : Point.i
+
+# target to preprocess a source file
+Point.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Point.cpp.i
+.PHONY : Point.cpp.i
+
+Point.s: Point.cpp.s
+.PHONY : Point.s
+
+# target to generate assembly for a file
+Point.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Point.cpp.s
+.PHONY : Point.cpp.s
+
 QuadraticFunction.o: QuadraticFunction.cpp.o
 .PHONY : QuadraticFunction.o
 
@@ -226,6 +274,30 @@ Student.cpp.s:
 	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/Student.cpp.s
 .PHONY : Student.cpp.s
 
+TestMemory.o: TestMemory.cpp.o
+.PHONY : TestMemory.o
+
+# target to build an object file
+TestMemory.cpp.o:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/TestMemory.cpp.o
+.PHONY : TestMemory.cpp.o
+
+TestMemory.i: TestMemory.cpp.i
+.PHONY : TestMemory.i
+
+# target to preprocess a source file
+TestMemory.cpp.i:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/TestMemory.cpp.i
+.PHONY : TestMemory.cpp.i
+
+TestMemory.s: TestMemory.cpp.s
+.PHONY : TestMemory.s
+
+# target to generate assembly for a file
+TestMemory.cpp.s:
+	cd /home/michal/Projects/clion/JiPP2/zadania_lab04/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/homework_lab04.dir/build.make src/CMakeFiles/homework_lab04.dir/TestMemory.cpp.s
+.PHONY : TestMemory.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -265,12 +337,21 @@ help:
 	@echo "... Cuboid.o"
 	@echo "... Cuboid.i"
 	@echo "... Cuboid.s"
+	@echo "... Figure.o"
+	@echo "... Figure.i"
+	@echo "... Figure.s"
+	@echo "... Point.o"
+	@echo "... Point.i"
+	@echo "... Point.s"
 	@echo "... QuadraticFunction.o"
 	@echo "... QuadraticFunction.i"
 	@echo "... QuadraticFunction.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"
+	@echo "... TestMemory.o"
+	@echo "... TestMemory.i"
+	@echo "... TestMemory.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
