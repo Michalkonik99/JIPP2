@@ -22,16 +22,16 @@ src/CMakeFiles/homework_lab04.dir/Student.cpp.o: \
  ../include/Student.h \
  ../src/Student.cpp
 src/CMakeFiles/homework_lab04.dir/TestMemory.cpp.o: \
- ../src/TestMemory.cpp \
- ../src/TestMemory.h
+ ../include/TestMemory.h \
+ ../src/TestMemory.cpp
 src/CMakeFiles/homework_lab04.dir/main.cpp.o: \
  ../include/Ball.h \
  ../include/Cuboid.h \
  ../include/Point.h \
  ../include/QuadraticFunction.h \
  ../include/Student.h \
+ ../include/TestMemory.h \
  ../include/main.h \
  ../lib/include/zadanie_01.h \
  ../src/Figure.h \
- ../src/TestMemory.h \
  ../src/main.cpp
