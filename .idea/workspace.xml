@@ -2,8 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="homework_lab04" targetName="zadanie01_lib" />
-      <config projectName="homework_lab04" targetName="homework_lab04" />
+      <config projectName="e1NoCopyingConstructor" targetName="e1NoCopyingConstructor" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -13,103 +12,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="homwework">
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/Ball.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/Cuboid.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/Figure.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/Point.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/QuadraticFunction.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/Student.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/TestMemory.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/build/src/homework_lab04" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/include/Point.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/include/main.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/src/Figure.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/src/Figure.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/src/Point.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/src/TestMemory.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab04/src/TestMemory.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab05/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab05/include/Point.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab05/include/Vehicle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab05/src/Point.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab05/src/Vehicle.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/3.16.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/homework_lab04.dir/src/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/homework_lab04" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/cmake_clean_target.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/CMakeFiles/zadanie01_lib.dir/src/zadanie_01.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/lib/libzadanie01_lib.a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/homework_lab04.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/build/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/build/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/homework_lab04.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/homework_lab04.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/lib/CMakeFiles/zadanie01_lib.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/lib/CMakeFiles/zadanie01_lib.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/homework_lab04.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/cmake-build-debug/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/src/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/src/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/src/Student.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/src/Student.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab04/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab04/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,28 +72,23 @@
       <recent name="$PROJECT_DIR$/zad_1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.homework_lab04">
+  <component name="RunManager" selected="CMake Application.e1NoCopyingConstructor">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_lab04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab04" TARGET_NAME="homework_lab04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_lab04" RUN_TARGET_NAME="homework_lab04">
+    <configuration name="e1NoCopyingConstructor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="e1NoCopyingConstructor" TARGET_NAME="e1NoCopyingConstructor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="e1NoCopyingConstructor" RUN_TARGET_NAME="e1NoCopyingConstructor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="matrixApp" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="determinantMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab04" TARGET_NAME="matrixApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_lab04" RUN_TARGET_NAME="matrixApp">
+    <configuration name="matrixApp" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="determinantMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="e1NoCopyingConstructor" TARGET_NAME="matrixApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="e1NoCopyingConstructor" RUN_TARGET_NAME="matrixApp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="projectMatrix" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sortRowsInMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab04" TARGET_NAME="projectMatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_lab04" RUN_TARGET_NAME="projectMatrix">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zadanie01_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab04" TARGET_NAME="zadanie01_lib" CONFIG_NAME="Debug">
+    <configuration name="projectMatrix" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sortRowsInMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="e1NoCopyingConstructor" TARGET_NAME="projectMatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="e1NoCopyingConstructor" RUN_TARGET_NAME="projectMatrix">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -195,8 +101,7 @@
     <list>
       <item itemvalue="CMake Application.matrixApp" />
       <item itemvalue="CMake Application.projectMatrix" />
-      <item itemvalue="CMake Application.zadanie01_lib" />
-      <item itemvalue="CMake Application.homework_lab04" />
+      <item itemvalue="CMake Application.e1NoCopyingConstructor" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -233,6 +138,8 @@
       <workItem from="1635775019802" duration="12101000" />
       <workItem from="1635795654376" duration="1848000" />
       <workItem from="1635805458059" duration="4198000" />
+      <workItem from="1635965695523" duration="173000" />
+      <workItem from="1636445905378" duration="2515000" />
     </task>
     <task id="LOCAL-00001" summary="library">
       <created>1634630994405</created>
