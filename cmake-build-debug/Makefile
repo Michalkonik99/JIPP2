@@ -156,6 +156,19 @@ homework/fast:
 .PHONY : homework/fast
 
 #=============================================================================
+# Target rules for targets named zadanie01_lib
+
+# Build rule for target.
+zadanie01_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zadanie01_lib
+.PHONY : zadanie01_lib
+
+# fast build rule for target.
+zadanie01_lib/fast:
+	$(MAKE) $(MAKESILENT) -f zadania_lab04/lib/CMakeFiles/zadanie01_lib.dir/build.make zadania_lab04/lib/CMakeFiles/zadanie01_lib.dir/build
+.PHONY : zadanie01_lib/fast
+
+#=============================================================================
 # Target rules for targets named homework_lab04
 
 # Build rule for target.
@@ -165,8 +178,21 @@ homework_lab04: cmake_check_build_system
 
 # fast build rule for target.
 homework_lab04/fast:
-	$(MAKE) $(MAKESILENT) -f zadania_lab04/CMakeFiles/homework_lab04.dir/build.make zadania_lab04/CMakeFiles/homework_lab04.dir/build
+	$(MAKE) $(MAKESILENT) -f zadania_lab04/src/CMakeFiles/homework_lab04.dir/build.make zadania_lab04/src/CMakeFiles/homework_lab04.dir/build
 .PHONY : homework_lab04/fast
+
+#=============================================================================
+# Target rules for targets named homework_lab05
+
+# Build rule for target.
+homework_lab05: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 homework_lab05
+.PHONY : homework_lab05
+
+# fast build rule for target.
+homework_lab05/fast:
+	$(MAKE) $(MAKESILENT) -f zadania_lab05/CMakeFiles/homework_lab05.dir/build.make zadania_lab05/CMakeFiles/homework_lab05.dir/build
+.PHONY : homework_lab05/fast
 
 #=============================================================================
 # Target rules for targets named matrixApp
@@ -205,9 +231,11 @@ help:
 	@echo "... allocation_basics"
 	@echo "... homework"
 	@echo "... homework_lab04"
+	@echo "... homework_lab05"
 	@echo "... matrixApp"
 	@echo "... matrixLib"
 	@echo "... simpleCalc"
+	@echo "... zadanie01_lib"
 .PHONY : help
 
 

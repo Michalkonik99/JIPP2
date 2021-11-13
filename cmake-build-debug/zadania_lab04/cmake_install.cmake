@@ -42,3 +42,13 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/lib/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab04/src/cmake_install.cmake")
+endif()
+

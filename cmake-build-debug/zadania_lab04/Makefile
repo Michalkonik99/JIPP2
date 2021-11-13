@@ -65,16 +65,6 @@ CMAKE_BINARY_DIR = /home/michal/Projects/clion/JiPP2/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/169/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -84,6 +74,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/169/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -116,44 +116,6 @@ depend:
 	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-zadania_lab04/CMakeFiles/homework_lab04.dir/rule:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zadania_lab04/CMakeFiles/homework_lab04.dir/rule
-.PHONY : zadania_lab04/CMakeFiles/homework_lab04.dir/rule
-
-# Convenience name for target.
-homework_lab04: zadania_lab04/CMakeFiles/homework_lab04.dir/rule
-.PHONY : homework_lab04
-
-# fast build rule for target.
-homework_lab04/fast:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f zadania_lab04/CMakeFiles/homework_lab04.dir/build.make zadania_lab04/CMakeFiles/homework_lab04.dir/build
-.PHONY : homework_lab04/fast
-
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
-
-# target to build an object file
-src/main.cpp.o:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f zadania_lab04/CMakeFiles/homework_lab04.dir/build.make zadania_lab04/CMakeFiles/homework_lab04.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
-
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
-
-# target to preprocess a source file
-src/main.cpp.i:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f zadania_lab04/CMakeFiles/homework_lab04.dir/build.make zadania_lab04/CMakeFiles/homework_lab04.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
-
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
-
-# target to generate assembly for a file
-src/main.cpp.s:
-	cd /home/michal/Projects/clion/JiPP2/cmake-build-debug && $(MAKE) $(MAKESILENT) -f zadania_lab04/CMakeFiles/homework_lab04.dir/build.make zadania_lab04/CMakeFiles/homework_lab04.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,10 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... homework_lab04"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
 .PHONY : help
 
 

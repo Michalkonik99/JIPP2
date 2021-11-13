@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(e1NoCopyingConstructor)
+project(homework_lab05)
 include_directories(include)
 
-add_executable(e1NoCopyingConstructor
+add_executable(homework_lab05
         src/main.cpp
         src/Point.cpp
         src/Vehicle.cpp)

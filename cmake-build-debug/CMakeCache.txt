@@ -242,6 +242,12 @@ allocation_basics_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-buil
 allocation_basics_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/allocation_basics
 
 //Value Computed by CMake
+e1NoCopyingConstructor_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05
+
+//Value Computed by CMake
+e1NoCopyingConstructor_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/zadania_lab05
+
+//Value Computed by CMake
 homework_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab03
 
 //Value Computed by CMake
@@ -252,6 +258,12 @@ homework_lab04_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-d
 
 //Value Computed by CMake
 homework_lab04_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/zadania_lab04
+
+//Value Computed by CMake
+homework_lab05_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05
+
+//Value Computed by CMake
+homework_lab05_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/zadania_lab05
 
 //Value Computed by CMake
 matrixApp_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1
@@ -390,7 +402,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
