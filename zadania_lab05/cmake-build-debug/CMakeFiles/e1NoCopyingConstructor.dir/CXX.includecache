@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Point.h
+iostream
+-
+
+../include/Vehicle.h
+iostream
+-
+
+/home/michal/Projects/clion/JiPP2/zadania_lab05/src/Vehicle.cpp
+Vehicle.h
+/home/michal/Projects/clion/JiPP2/zadania_lab05/src/Vehicle.h
+string.h
+-
+
+/home/michal/Projects/clion/JiPP2/zadania_lab05/src/main.cpp
+iostream
+-
+Point.h
+/home/michal/Projects/clion/JiPP2/zadania_lab05/src/Point.h
+Vehicle.h
+/home/michal/Projects/clion/JiPP2/zadania_lab05/src/Vehicle.h
+
