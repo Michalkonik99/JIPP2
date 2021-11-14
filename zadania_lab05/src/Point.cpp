@@ -23,7 +23,7 @@ Point::~Point(){
     delete y;
 }
 
-double Point::getX() {
+double Point::getX() const{
     return *x;
 }
 
@@ -31,7 +31,7 @@ void Point::setX(double x) {
     *this->x = x;
 }
 
-double Point::getY() {
+double Point::getY() const{
     return *y;
 }
 

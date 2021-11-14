@@ -24,7 +24,6 @@
       <change beforePath="$PROJECT_DIR$/zadania_lab05/include/Point.h" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/include/Point.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadania_lab05/include/Vehicle.h" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/include/Vehicle.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadania_lab05/src/Point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/src/Point.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab05/src/Vehicle.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/src/Vehicle.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zadania_lab05/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +53,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1zgfiSA7Hde0TFi8Lp2csbpaFbE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -81,11 +77,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.allocation_basics">
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="allocation_basics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="allocation_basics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="allocation_basics">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -188,6 +179,7 @@
       <workItem from="1636753735304" duration="1000" />
       <workItem from="1636835693837" duration="2089000" />
       <workItem from="1636847827460" duration="3916000" />
+      <workItem from="1636883865509" duration="3329000" />
     </task>
     <task id="LOCAL-00001" summary="library">
       <created>1634630994405</created>

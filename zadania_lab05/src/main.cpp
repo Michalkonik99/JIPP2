@@ -67,13 +67,15 @@ void exercise_2(){
     vehicle.print_data();
 
     vehicle.print_software_version();
+    cout << "Update software result: " << endl;
     vehicle.update_software();
     vehicle.print_software_version();
     Vehicle::release_new_software_version(4.1);
 }
 
 int main() {
-//1.1
+//2 - stale wskazniki
+
 //    int cVal = 314;
 //    int *const p = &cVal;
 //

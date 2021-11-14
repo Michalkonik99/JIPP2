@@ -43,7 +43,7 @@ public:
      * Get value of x
      * @return x
      */
-    double getX();
+    double getX() const;
 
     /**
      * Update x value
@@ -55,7 +55,7 @@ public:
      * Get value of y
      * @return y
      */
-    double getY();
+    double getY() const;
 
     /**
      * Update y value
