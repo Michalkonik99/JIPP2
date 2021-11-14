@@ -3,27 +3,71 @@
 
 double Vehicle::newest_software_version = 3.12;
 
-Vehicle::Vehicle(int Register_Number, string Name, int Number_Of_Seats, char* Owner, string Brand, string Type){
+Vehicle::Vehicle(int Register_Number, string Name, int Number_Of_Seats, string Brand, string Type, string* Passengers){
     register_number = Register_Number;
     name = Name;
     number_of_seats = Number_Of_Seats;
-    owner = new char[20];
-    strcpy(owner, Owner);
+    passengers = new string[number_of_seats];
     brand = Brand;
     type = Type;
+
+    for(int i = 0; i < number_of_seats; ++i)
+        passengers[i] = "puste";
+}
+
+Vehicle::Vehicle(Vehicle &vehicle){
+    register_number = vehicle.register_number;
+    name = vehicle.name;
+    number_of_seats = vehicle.number_of_seats;
+    passengers = new string[number_of_seats];
+    brand = vehicle.brand;
+    type = vehicle.type;
+
+    for(int i = 0; i < number_of_seats; ++i)
+        passengers[i] = vehicle.passengers[i];
 }
 
 Vehicle::~Vehicle() {
-    delete [] owner;
+    delete [] passengers;
 }
 
 void Vehicle::print_data(){
-    cout << register_number << endl;
-    cout << name << endl;
-    cout << number_of_seats << endl;
-    cout << owner << endl;
-    cout << brand << endl;
-    cout << type << endl;
+    cout << "Nr rejestracyjny: " << register_number << endl;
+    cout << "Nazwa: " << name << endl;
+    cout << "Ilosc miejsc: " << number_of_seats << endl;
+    cout << "Pasazerowie: " << endl;
+    for(int i = 0; i < number_of_seats; ++i)
+        cout << i + 1 << ". " << passengers[i] << endl;
+    cout << "Marka: " << brand << endl;
+    cout << "Typ: " << type << endl;
+}
+
+string Vehicle::get_name(){
+    return name;
+}
+
+int Vehicle::get_register_number() {
+    return register_number;
+}
+
+string Vehicle::get_brand() {
+    return brand;
+}
+
+string Vehicle::get_type(){
+    return type;
+}
+
+void Vehicle::set_name(string Name){
+    name = Name;
+}
+
+void Vehicle::set_register_number(int RegisterNumber) {
+    register_number = RegisterNumber;
+}
+
+void Vehicle::change_passenger_data(int Seat, string PassengerData) {
+    passengers[Seat] = PassengerData;
 }
 
 void Vehicle::print_software_version() {

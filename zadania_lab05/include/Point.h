@@ -30,6 +30,7 @@ public:
      */
     Point(string name);
 
+    Point(Point &);
     ~Point();
 
     /**

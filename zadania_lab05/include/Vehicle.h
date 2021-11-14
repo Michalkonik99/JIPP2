@@ -9,7 +9,7 @@ private:
     int register_number;
     string name;
     int number_of_seats;
-    char* owner;
+    string* passengers;
     string brand;
     string type;
 
@@ -17,9 +17,18 @@ private:
     double installed_software_version = 3.0;
 
 public:
-    Vehicle(int, string, int, char*, string, string);
+    Vehicle(int, string, int, string, string, string* = nullptr);
+    Vehicle(Vehicle &);
     ~Vehicle();
     void print_data();
+    string get_name();
+    int get_register_number();
+    string get_brand();
+    string get_type();
+    void set_name(string);
+    void set_register_number(int);
+
+    void change_passenger_data(int, string);
     void print_software_version();
     void update_software();
     static void release_new_software_version(double released_version);

@@ -9,6 +9,15 @@ Point::Point(string name) : name(name) {
     *x = *y = 0;
 }
 
+Point::Point(Point &point){
+    x = new double;
+    y = new double;
+
+    *x = point.getX();
+    *y = point.getY();
+    name = point.getName();
+}
+
 Point::~Point(){
     delete x;
     delete y;
