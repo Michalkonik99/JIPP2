@@ -266,6 +266,12 @@ homework_lab05_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-d
 homework_lab05_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/zadania_lab05
 
 //Value Computed by CMake
+homework_lab06_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab06
+
+//Value Computed by CMake
+homework_lab06_SOURCE_DIR:STATIC=/home/michal/Projects/clion/JiPP2/zadania_lab06
+
+//Value Computed by CMake
 matrixApp_BINARY_DIR:STATIC=/home/michal/Projects/clion/JiPP2/cmake-build-debug/project_1
 
 //Value Computed by CMake
@@ -402,7 +408,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=11
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

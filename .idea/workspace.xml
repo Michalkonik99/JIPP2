@@ -2,14 +2,7 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Project" targetName="matrixApp" />
-      <config projectName="Project" targetName="matrixLib" />
-      <config projectName="Project" targetName="simpleCalc" />
-      <config projectName="Project" targetName="zadanie01_lib" />
-      <config projectName="Project" targetName="allocation_basics" />
-      <config projectName="Project" targetName="homework_lab05" />
-      <config projectName="Project" targetName="homework_lab04" />
-      <config projectName="Project" targetName="homework" />
+      <config projectName="homework_lab06" targetName="homework_lab06" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -19,12 +12,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="lab_05">
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/include/Node.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/include/Vector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/src/Node.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/src/Vector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab05/include/Point.h" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/include/Point.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab05/include/Vehicle.h" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/include/Vehicle.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab05/src/Point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/src/Point.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadania_lab05/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab05/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,48 +75,23 @@
       <recent name="$PROJECT_DIR$/zad_1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.allocation_basics">
-    <configuration name="allocation_basics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="allocation_basics" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="allocation_basics">
+  <component name="RunManager" selected="CMake Application.homework_lab06">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homework_lab06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab06" TARGET_NAME="homework_lab06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_lab06" RUN_TARGET_NAME="homework_lab06">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="homework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="homework">
+    <configuration name="matrixApp" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="determinantMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab06" TARGET_NAME="matrixApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_lab06" RUN_TARGET_NAME="matrixApp">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework_lab04" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="homework_lab04" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="homework_lab04">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="homework_lab05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="homework_lab05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="homework_lab05">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="matrixApp" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="determinantMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="matrixApp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="matrixApp">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="matrixLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="matrixLib" CONFIG_NAME="Debug">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="projectMatrix" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sortRowsInMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="projectMatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="projectMatrix">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simpleCalc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="simpleCalc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="simpleCalc">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="zadanie01_lib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Project" TARGET_NAME="zadanie01_lib" CONFIG_NAME="Debug">
+    <configuration name="projectMatrix" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="sortRowsInMatrix" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab06" TARGET_NAME="projectMatrix" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_lab06" RUN_TARGET_NAME="projectMatrix">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -128,15 +102,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.allocation_basics" />
       <item itemvalue="CMake Application.matrixApp" />
-      <item itemvalue="CMake Application.matrixLib" />
-      <item itemvalue="CMake Application.simpleCalc" />
-      <item itemvalue="CMake Application.homework" />
-      <item itemvalue="CMake Application.zadanie01_lib" />
-      <item itemvalue="CMake Application.homework_lab04" />
-      <item itemvalue="CMake Application.homework_lab05" />
       <item itemvalue="CMake Application.projectMatrix" />
+      <item itemvalue="CMake Application.homework_lab06" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -179,7 +147,9 @@
       <workItem from="1636753735304" duration="1000" />
       <workItem from="1636835693837" duration="2089000" />
       <workItem from="1636847827460" duration="3916000" />
-      <workItem from="1636883865509" duration="3329000" />
+      <workItem from="1636883865509" duration="3458000" />
+      <workItem from="1637050749004" duration="1138000" />
+      <workItem from="1637051898274" duration="3798000" />
     </task>
     <task id="LOCAL-00001" summary="library">
       <created>1634630994405</created>
@@ -349,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636836359236</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="lab_05">
+      <created>1636888099667</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1636888099667</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
