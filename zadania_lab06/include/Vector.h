@@ -37,6 +37,7 @@ public:
 
     bool operator==(const Vector &);
 
+    friend std::ostream & operator <<(std::ostream &, const Vector &);
 };
 
 #endif //HOMEWORK_LAB06_VECTOR_H

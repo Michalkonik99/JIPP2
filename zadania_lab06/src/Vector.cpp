@@ -54,3 +54,7 @@ bool Vector::operator==(const Vector &rhs){
 
     return false;
 }
+
+std::ostream & operator <<(std::ostream &s, const Vector &rhs){
+    return s << "<" << rhs.x << ", " << rhs.y << ">";
+}

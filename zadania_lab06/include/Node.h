@@ -12,6 +12,10 @@ public:
     Node();
     Node(double x, double y);
 
+    double get_x() const;
+
+    double get_y() const;
+
     void display();
 
     void updateValue(double x, double y);

@@ -11,19 +11,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="lab_05">
-      <change afterPath="$PROJECT_DIR$/zadania_lab06/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab06/include/Node.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab06/include/Vector.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab06/src/Node.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab06/src/Vector.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zadania_lab06/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3ff50f3f-8532-40ff-a69a-f8f97d95dea4" name="Changes" comment="lab_06">
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/include/Triangle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zadania_lab06/src/Triangle.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania_lab06/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab06/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania_lab06/include/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab06/include/Node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania_lab06/include/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab06/include/Vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania_lab06/src/Node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab06/src/Node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania_lab06/src/Vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab06/src/Vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zadania_lab06/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/zadania_lab06/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +73,6 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.homework_lab06">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="homework_lab06" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="homework_lab06" TARGET_NAME="homework_lab06" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="homework_lab06" RUN_TARGET_NAME="homework_lab06">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -149,7 +141,9 @@
       <workItem from="1636847827460" duration="3916000" />
       <workItem from="1636883865509" duration="3458000" />
       <workItem from="1637050749004" duration="1138000" />
-      <workItem from="1637051898274" duration="3798000" />
+      <workItem from="1637051898274" duration="4090000" />
+      <workItem from="1637610537022" duration="3700000" />
+      <workItem from="1637624409123" duration="1725000" />
     </task>
     <task id="LOCAL-00001" summary="library">
       <created>1634630994405</created>
@@ -326,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636888099667</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="lab_05">
+      <created>1637055709396</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1637055709396</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

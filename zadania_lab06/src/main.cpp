@@ -1,6 +1,7 @@
 #include <iostream>
 #include "Node.h"
 #include "Vector.h"
+#include "Triangle.h"
 
 using namespace std;
 
@@ -42,6 +43,23 @@ int main(){
         cout << "Takie same" << endl;
     else
         cout << "Rozne" << endl;
+
+    cout << "Przeciazenie << dla wektora nr 2: " << endl;
+    cout << v2 << endl;
+
+    //--------------------------- TRIANGLE ---------------------------
+
+    Node c, d(5,8), e(1, 16);
+    Triangle triangle(c, d, e, "First Triangle");
+
+    triangle.display();
+    cout << triangle << endl;
+
+    cout << "Distance between first and second point is " << triangle.distance(0, 1) << endl;
+
+    showTriangleData(triangle);
+//    showTriangleData(triangle);
+    showTriangleData(&triangle);
 
     return 0;
 }

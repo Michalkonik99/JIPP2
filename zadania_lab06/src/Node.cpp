@@ -9,6 +9,14 @@ Node::Node() {
 
 Node::Node(double x, double y): x(x), y(y) {}
 
+double Node::get_x() const {
+    return x;
+}
+
+double Node::get_y() const {
+    return y;
+}
+
 void Node::display() {
     cout << "x: " << x << "\ty: " << y << endl;
 }

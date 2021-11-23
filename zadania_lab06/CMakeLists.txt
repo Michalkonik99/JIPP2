@@ -6,4 +6,5 @@ include_directories(include)
 add_executable(homework_lab06
         src/main.cpp
         src/Node.cpp
-        src/Vector.cpp)
+        src/Vector.cpp
+        src/Triangle.cpp)
