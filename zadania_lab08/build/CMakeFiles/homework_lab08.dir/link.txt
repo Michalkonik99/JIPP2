@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/homework_lab08.dir/src/main.cpp.o CMakeFiles/homework_lab08.dir/src/Note.cpp.o CMakeFiles/homework_lab08.dir/src/TextNote.cpp.o CMakeFiles/homework_lab08.dir/src/ListNote.cpp.o CMakeFiles/homework_lab08.dir/src/NoteDirector.cpp.o  -o homework_lab08 

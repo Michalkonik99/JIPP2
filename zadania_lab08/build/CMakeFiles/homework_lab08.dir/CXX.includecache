@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ListNote.h
+Note.h
+../include/Note.h
+
+../include/Note.h
+iostream
+-
+
+../include/NoteDirector.h
+iostream
+-
+vector
+-
+Note.h
+../include/Note.h
+TextNote.h
+../include/TextNote.h
+ListNote.h
+../include/ListNote.h
+
+../include/TextNote.h
+Note.h
+../include/Note.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab08/src/NoteDirector.cpp
+NoteDirector.h
+/home/michal/Projects/clion/JiPP2/zadania_lab08/src/NoteDirector.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab08/src/main.cpp
+iostream
+-
+NoteDirector.h
+/home/michal/Projects/clion/JiPP2/zadania_lab08/src/NoteDirector.h
+
