@@ -1,4 +1,4 @@
-cmake_minimum_required()
+cmake_minimum_required(VERSION 3.16)
 
 project(homework_lab09)
 include_directories(include)
