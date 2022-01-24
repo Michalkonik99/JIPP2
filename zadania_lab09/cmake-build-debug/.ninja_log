@@ -1,0 +1,5 @@
+# ninja log v5
+1	323	1641893000461905217	CMakeFiles/homework_lab09.dir/src/MusicPlayer.cpp.o	2d4a46f413b0f5d
+0	358	1641893000493903026	CMakeFiles/homework_lab09.dir/src/main.cpp.o	45fe4f25b95e35a3
+358	438	1641893000573897546	homework_lab09	1f694fe26f75ddcd
+0	225	1641893000361912066	CMakeFiles/homework_lab09.dir/src/Stop.cpp.o	6088da98d6289597

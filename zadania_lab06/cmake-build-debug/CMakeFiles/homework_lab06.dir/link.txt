@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/homework_lab06.dir/src/main.cpp.o CMakeFiles/homework_lab06.dir/src/Node.cpp.o CMakeFiles/homework_lab06.dir/src/Vector.cpp.o CMakeFiles/homework_lab06.dir/src/Triangle.cpp.o -o homework_lab06 

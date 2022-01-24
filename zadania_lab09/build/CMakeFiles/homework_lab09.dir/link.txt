@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/homework_lab09.dir/src/main.cpp.o CMakeFiles/homework_lab09.dir/src/Stop.cpp.o CMakeFiles/homework_lab09.dir/src/MusicPlayer.cpp.o  -o homework_lab09 

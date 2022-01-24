@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/homework_lab07.dir/src/main.cpp.o CMakeFiles/homework_lab07.dir/src/Figure.cpp.o CMakeFiles/homework_lab07.dir/src/Circle.cpp.o CMakeFiles/homework_lab07.dir/src/Rectangle.cpp.o -o homework_lab07 

@@ -1,0 +1,3 @@
+/home/michal/Projects/clion/JiPP2/zadania_lab08/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab08/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/michal/Projects/clion/JiPP2/zadania_lab08/cmake-build-debug/CMakeFiles/homework_lab08.dir

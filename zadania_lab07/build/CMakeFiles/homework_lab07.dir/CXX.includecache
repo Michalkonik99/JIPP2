@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Circle.h
+Figure.h
+../include/Figure.h
+
+../include/Figure.h
+iostream
+-
+
+../include/Rectangle.h
+iostream
+-
+Figure.h
+../include/Figure.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab07/src/Rectangle.cpp
+Rectangle.h
+/home/michal/Projects/clion/JiPP2/zadania_lab07/src/Rectangle.h
+
+/home/michal/Projects/clion/JiPP2/zadania_lab07/src/main.cpp
+iostream
+-
+Figure.h
+/home/michal/Projects/clion/JiPP2/zadania_lab07/src/Figure.h
+Circle.h
+/home/michal/Projects/clion/JiPP2/zadania_lab07/src/Circle.h
+Rectangle.h
+/home/michal/Projects/clion/JiPP2/zadania_lab07/src/Rectangle.h
+

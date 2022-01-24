@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="e1NoCopyingConstructor"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\zadania_lab03\;CMake Files\zadania_lab04\;CMake Files\zadania_lab04\lib\;CMake Files\zadania_lab04\src\;CMake Files\zadania_lab05\;CMake Files\project_1\;CMake Files\project_1\matrixApp\;CMake Files\project_1\matrixLib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e1NoCopyingConstructor">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/e1NoCopyingConstructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/michal/Projects/clion/JiPP2/zadania_lab05/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 e1NoCopyingConstructor"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="e1NoCopyingConstructor/fast">
+				<Option output="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/e1NoCopyingConstructor" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/michal/Projects/clion/JiPP2/zadania_lab05/include"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 e1NoCopyingConstructor/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/michal/Projects/clion/JiPP2/cmake-build-debug/zadania_lab05/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab05/src/Point.cpp">
+			<Option target="e1NoCopyingConstructor"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab05/src/Vehicle.cpp">
+			<Option target="e1NoCopyingConstructor"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab05/src/main.cpp">
+			<Option target="e1NoCopyingConstructor"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/allocation_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\allocation_basics\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/simpleCalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simpleCalc\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab03/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zadania_lab03\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zadania_lab04\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/lib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zadania_lab04\lib\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab04/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zadania_lab04\src\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/zadania_lab05/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\zadania_lab05\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\matrixApp\"/>
+		</Unit>
+		<Unit filename="/home/michal/Projects/clion/JiPP2/project_1/matrixLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\project_1\matrixLib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Node.h
+math.h
+-
+iostream
+-
+
+../include/Triangle.h
+iostream
+-
+Node.h
+../include/Node.h
+
+../include/Vector.h
+iostream
+-
+math.h
+-
+
+/home/michal/Projects/clion/JiPP2/zadania_lab06/src/Triangle.cpp
+Triangle.h
+/home/michal/Projects/clion/JiPP2/zadania_lab06/src/Triangle.h
+math.h
+-
+
+/home/michal/Projects/clion/JiPP2/zadania_lab06/src/main.cpp
+iostream
+-
+Node.h
+/home/michal/Projects/clion/JiPP2/zadania_lab06/src/Node.h
+Vector.h
+/home/michal/Projects/clion/JiPP2/zadania_lab06/src/Vector.h
+Triangle.h
+/home/michal/Projects/clion/JiPP2/zadania_lab06/src/Triangle.h
+

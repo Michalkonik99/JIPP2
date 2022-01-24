@@ -1,0 +1,2 @@
+/usr/bin/ar qc libzadanie01_lib.a  CMakeFiles/zadanie01_lib.dir/src/zadanie_01.cpp.o
+/usr/bin/ranlib libzadanie01_lib.a

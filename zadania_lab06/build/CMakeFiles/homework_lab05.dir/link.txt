@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/homework_lab05.dir/src/main.cpp.o CMakeFiles/homework_lab05.dir/src/Node.cpp.o  -o homework_lab05 
